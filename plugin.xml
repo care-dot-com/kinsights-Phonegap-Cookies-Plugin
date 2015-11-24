@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.bez4pieci.cookies" version="0.0.1">
+        id="com.kinsights.cookies" version="0.0.1">
     <name>Cookies</name>
     <description>Phonegap/Cordova plugin that allows you to clear cookies of the webview. Use it for logging out the user, restart analytics session etc.</description>
     <license>MIT</license>
@@ -27,10 +27,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Cookies" >
-                <param name="android-package" value="com.bez4pieci.cookies.Cookies"/>
+                <param name="android-package" value="com.kinsights.cookies.Cookies"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Cookies.java" target-dir="src/com/bez4pieci/cookies" />
+        <source-file src="src/android/Cookies.java" target-dir="src/com/kinsights/cookies" />
     </platform>
 </plugin>

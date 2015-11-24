@@ -1,8 +1,5 @@
-
 /*
- * Copyright 2013 Ernests Karlsons
- * https://github.com/bez4pieci
- * http://www.karlsons.net
+ * Copyright 2015 Kinsights
  * 
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -26,15 +23,9 @@
 
 var exec = require('cordova/exec');
 
-/**
- * @constructor
- */
-function Cookies() {
-    
-}
+function Cookies() {}
 
 /**
- * Get device info
  *
  * @param {Function} successCallback The function to call when cookies cleared successfully
  * @param {Function} errorCallback The function to call when there was an error (OPTIONAL)

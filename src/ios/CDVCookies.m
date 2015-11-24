@@ -1,7 +1,5 @@
 /*
- * Copyright 2013 Ernests Karlsons
- * https://github.com/bez4pieci
- * http://www.karlsons.net
+ * Copyright 2015 Kinsights
  * 
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the

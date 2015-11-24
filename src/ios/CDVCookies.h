@@ -1,8 +1,8 @@
 //
 //  CDVCookies.h
-//  Dreamflat
+//  
 //
-//  Created by Dr. E on 25/11/13.
+//  Created by Kinsights
 //
 //
 
