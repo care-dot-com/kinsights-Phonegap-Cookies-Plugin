@@ -1,13 +1,36 @@
 {
-    "version": "0.0.1",
-    "name": "com.kinsights.cookies",
-    "cordova_name": "Cookies",
-    "description": "Cordova Cookies Plugin",
-    "license": "Apache 2.0",
-    "keywords": [
-        "cordova",
-        "phonegap",
-        "cookies"
-    ],
-    "engines": []
+  "name": "cordova-plugin-cookies",
+  "version": "0.0.1",
+  "description": "Phonegap/Cordova plugin that allows you to clear cookies of the webview. Use it for logging out the user, restart analytics session etc.",
+  "cordova": {
+    "id": "com.kinsights.cookies",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinsights/Phonegap-Cookies-Plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "cookies",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/kinsights/Phonegap-Cookies-Plugin/issues"
+  },
+  "homepage": "https://github.com/kinsights/Phonegap-Cookies-Plugin#readme"
 }
